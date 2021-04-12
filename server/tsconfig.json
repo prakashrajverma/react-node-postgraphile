@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "esnext.asynciterable"],
+    "target": "es2018",
+    "module": "commonjs",
+    "rootDirs": ["src", "migrations"],
+    "outDir": "dist/",
+    "strict": true,
+    "types": ["node"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
